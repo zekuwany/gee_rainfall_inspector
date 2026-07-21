@@ -11,12 +11,12 @@ mapPanel.style().set('cursor', 'crosshair');
 //                                              DATA PROCESSING
 //----------------------------------------------------------------------------------------------------------//
 
-var startYear = 1990;
-var endYear = 2022;
+var startYear = 1985;
+var endYear = 2024;
 var years = ee.List.sequence(startYear, endYear);
 
 // Set the Area of Interest
-var tun = ee.FeatureCollection("users/labiadhmoez/TUN_adm");
+var tun = ee.FeatureCollection("projects/ee-zekuwany/assets/SHP/Gara_Mullata_Park");
 
 // Add the CHRIPS daily precipitation collection
 var Daily = ee.ImageCollection('UCSB-CHG/CHIRPS/DAILY')
