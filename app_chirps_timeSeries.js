@@ -52,7 +52,7 @@ var annualMean_show = ee.Image("users/labiadhmoez/TUN_average_prec_1990_2000");
 
 var pViz = {min: 0, max: 800, palette:'red,orange,yellow,aqua,blue,navy'};
 
-mapPanel.centerObject(tun, 7);
+mapPanel.centerObject(tun, 12);
 mapPanel.addLayer(annualMean_show, pViz, 'Average Annual Precipitation');
 
 
@@ -180,7 +180,7 @@ var label = ui.Label({value: 'Click a point on the map to generate the chart.',
                       style: {fontWeight: 'bold',
                               margin: '40px 10px 5px 10px'}});
 
-var chart_desc = ui.Label({value:'The chart shows the annual total rainfall amounts of the last 40years (1985 to 2024)' +
+var chart_desc = ui.Label({value:'The chart shows the annual total rainfall amounts of the last 40 years (1985 to 2024)' +
                                   ' as calculated from daily CHRIPS* rainfall data. Click on the maximize button ' +
                                   'to open the chart in a seperate window and save data as image or CSV.',
                            style: {fontSize: '13px', 
