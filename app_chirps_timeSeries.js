@@ -180,7 +180,7 @@ var label = ui.Label({value: 'Click a point on the map to generate the chart.',
                       style: {fontWeight: 'bold',
                               margin: '40px 10px 5px 10px'}});
 
-var chart_desc = ui.Label({value:'The chart shows the annual total rainfall amounts of the last 33 years (1990 to 2022)' +
+var chart_desc = ui.Label({value:'The chart shows the annual total rainfall amounts of the last 40years (1985 to 2024)' +
                                   ' as calculated from daily CHRIPS* rainfall data. Click on the maximize button ' +
                                   'to open the chart in a seperate window and save data as image or CSV.',
                            style: {fontSize: '13px', 
